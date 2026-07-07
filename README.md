@@ -1,7 +1,5 @@
 This project implements a semantic search engine and visualises key thematic clusters within Jane Austen's classic novel, Pride and Prejudice. 
 
-Features:
-
 ## Features
 Automated Text Ingestion: Downloads Pride and Prejudice directly from Project Gutenberg and cleans and segments the text into distinct semantic passages.
 
