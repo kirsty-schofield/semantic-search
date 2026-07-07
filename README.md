@@ -23,6 +23,8 @@ Plotting: Matplotlib then generates a scatter plot where every passage is a ligh
 
 ### Success within the model: 
 
-•	The all-MiniLM-L6-v2 model tends to push general text matches into a tighter band of between 0.20 and 0.50, so a score of over 0.30 on this model signals a highly relevant match. 
-•	For concrete phrases like “Mr Darcy’s estate’, the scores will likely reach 0.70 or 0.80 because the vocabulary is so distinct. But for abstract concepts like feelings or affection, the model spreads the mathematical weight across a variety of synonyms which results in a lower, but still accurate, number. 
-•	Within this model, for the query “a woman searches for a husband”, the top passage is actually the inverse: it talks of a man wanting a wife, in the book’s famous introduction. Basic keyword searches would ignore this concept because the sentence doesn’t actually contain any of the exact words in the query. The semantic search model, however, recognises the phrases are two sides of the same semantic coin: marriage and matchmaking. 
+The all-MiniLM-L6-v2 model tends to push general text matches into a tighter band of between 0.20 and 0.50, so a score of over 0.30 on this model signals a highly relevant match. 
+
+For concrete phrases like “Mr Darcy’s estate’, the scores will likely reach 0.70 or 0.80 because the vocabulary is so distinct. But for abstract concepts like feelings or affection, the model spreads the mathematical weight across a variety of synonyms which results in a lower, but still accurate, number. 
+
+Within this model, for the query “a woman searches for a husband”, the top passage is actually the inverse: it talks of a man wanting a wife, in the book’s famous introduction. Basic keyword searches would ignore this concept because the sentence doesn’t actually contain any of the exact words in the query. The semantic search model, however, recognises the phrases are two sides of the same semantic coin: marriage and matchmaking. 
