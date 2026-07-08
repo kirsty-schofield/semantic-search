@@ -52,7 +52,7 @@ themes = {
     "Scandal": "gossip drama talking secrets rumours shame disgrace elopement"
 }
 
-# 2. Define colors for each theme
+# Define colours for each theme
 colour_map = {
     "Marriage": "pink", 
     "Pride": "green", 
